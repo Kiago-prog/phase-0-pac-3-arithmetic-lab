@@ -24,6 +24,8 @@ describe('basic math functions', function () {
     expect(divide).toExist
   })
 
+  
+  
   it('add(a, b) adds two numbers and returns the result', function() {
     expect(add(a, b)).toEqual(a + b)
   })
@@ -39,6 +41,7 @@ describe('basic math functions', function () {
   it('divide(a, b) divides a by b and returns the result', function() {
     expect(divide(a, b)).toEqual(a / b)
   })
+  
   
   it('increment(n) increments n and returns the result', function() {
     expect(increment(a)).toEqual(a + 1)
